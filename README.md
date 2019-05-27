@@ -1,4 +1,4 @@
-## acts
+## ezclustering
 Easy Clustering
 
 ### Description

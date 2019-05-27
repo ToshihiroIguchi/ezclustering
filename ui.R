@@ -48,23 +48,16 @@ shinyUI(fluidPage(
                            #https://code.i-harness.com/ja/q/227d360
                            tags$head(tags$link(
                              rel = "stylesheet", type = "text/css", href = "my.css")),
-                           
                            DT::dataTableOutput("data")
                            ),
                   
                   tabPanel("Dendrogram",
-                           
-                           
-                           
-                           
                            plotOutput("hclust.plot"),
-                           
                            downloadButton('downloadData', 'Table download')
-                           
-                           )
-      
-      
+                           ),
+                  tabPanel("References", includeMarkdown("reference.md"))
+                  )
+      )
     )
   )
 )
-))
