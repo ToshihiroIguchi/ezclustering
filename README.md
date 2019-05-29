@@ -14,7 +14,7 @@ First install related packages.
 If packages are installed, it can be started from R console with the following command.
     
     shiny::runGitHub("ezclustering", "ToshihiroIguchi")
-    
+
 
 ### Host
 Host the Shiny application from GitHub in a private network.
